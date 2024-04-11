@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Henrique Guerra Messias">
+    <title>Cálculo Triângulo</title>
+</head>
+<body>
+    <script>
+        let med1 = parseInt(prompt("Qual é a medida do primeiro lado?"));
+        let med2 = parseInt(prompt("Qual é a medida do segundo lado?"));
+        let med3 = parseInt(prompt("Qual é a medida do terceiro lado?"));
+
+            if ( med1 == med2 && med1 == med3 ){
+                alert("Com base nas medidas fornecidas, esse triângulo é Equilátero");     
+            } else if (med1 != med2 && med1 != med3  && med2 != med3){
+                alert("Com base nas medidas fornecidas, esse triângulo é Escaleno");
+            } else{
+                alert("Com base nas medidas fornecidas, esse triângulo é Isóceles")
+            }
+    </script>
+
+    
+</body>
+</html>

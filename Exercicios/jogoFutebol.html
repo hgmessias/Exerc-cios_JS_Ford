@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Henrique Guerra Messias">
+    <title>Jogo Futebol</title>
+</head>
+
+<body>
+    <script>
+        let x = (prompt("Informar qual o nome do time visitante."));
+        let y = (prompt("Informar qual o nome do time mandante."));
+        let z = parseInt(prompt("Informar quantos gols o time visitante marcou"));
+        let t = parseInt(prompt("Informar quantos gols o time mandante marcou"));
+
+        if ( z > t ) {
+            alert(`O placar foi de ${y} ${t}-${z} ${x} Então o time visitante ganhou a partida!!!`);
+        } else if (t > z) {
+            alert(`O placar foi de ${y} ${t}-${z} ${x} Então o time mandante ganhou a partida!!`);
+        } else {
+            alert(`O placar foi de ${y} ${t}-${z} ${x} Então o jogo ficou empatado!!!`)
+        }
+    </script> 
+</body>

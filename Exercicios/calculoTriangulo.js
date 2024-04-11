@@ -1,3 +1,14 @@
+let med1 = parseInt(prompt("Qual é a primeira medida?"));
+let med2 = parseInt(prompt("Qual é a segunda medida?"));
+let med3 = parseInt(prompt("Qual é a terceira medida?"));
+
+if ( med1 == med2 && med1 == med3 ){
+    console.log("Com base nas medidas fornecidas, esse triângulo é Equilátero")
+}
+
+
+
+
 // Escreva     um     programa que leia     as     medidas     dos     lados     de     um     triângulo     e    escreva    se    ele    é    Equilátero,    Isósceles    ou  Escaleno. 
 // Sendo    que:    
 // − Triângulo    Equilátero:    possui    os    3    lados    iguais.
